@@ -12,5 +12,5 @@ button.addEventListener('click', changeBackgroungColor)
 function changeBackgroungColor() {
   const randomColor = getRandomHexColor()
   backgroundColor.style.backgroundColor = randomColor;
-  spanColor.textContent = backgroundColor.style.backgroundColor;
+  spanColor.textContent = randomColor;
 }
