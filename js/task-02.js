@@ -21,4 +21,3 @@ for (const ingredient of ingredients) {
 
 
 list.append(...listItems);
-
